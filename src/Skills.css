@@ -1,0 +1,11 @@
+h3{
+    font-family: 'Poiret One', cursive;
+    letter-spacing: 9px;
+}
+
+.progressBar{
+    width:"5vmin" ;
+    height:"5vmin" ;
+    font-family: 'Poiret One', cursive;
+    margin-bottom: 10px;
+}

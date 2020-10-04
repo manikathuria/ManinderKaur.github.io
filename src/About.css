@@ -1,0 +1,210 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+
+.about{
+   
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+tr{
+    height: 100vh;
+   
+}
+
+.left_side_about{
+    height: 100vh;
+    
+}
+
+.about_image{
+    height: 100vh;
+    width: 50vw;
+    z-index: 1000;
+    
+}
+.right_side{
+   
+    color: white;
+    position: absolute;
+}
+
+.about_me{
+   margin-top: 2%;
+    margin-left: 5%;
+    height: 100vw;
+    font-family: 'Roboto', cursive;
+  padding-bottom: 4vmin;
+   
+    
+}
+.about_me > h3{
+    letter-spacing:6px ;
+    font-family: 'Poiret One', cursive;
+}
+.about_me > h2{
+    letter-spacing: 9px;
+    font-family: 'Poiret One', cursive;   
+}
+
+.about_me > span{
+    font-size: 2.5vmin;
+    font-weight: bold;
+
+}
+.my_strenghts , .my_weaknesses{
+    line-height: 6vmin;
+}
+
+.my_titles_about{
+  
+    font-size: 4vmin;
+    font-weight: bold;
+    margin-top: 4vmin;
+}
+hr{
+    border-top: #fff 2px solid;
+    
+}
+
+.left_side_skills{
+    width: 50vw;
+}
+.header_skills{
+    color: rgb(56, 17, 128);
+    font-family: "Roboto" , sans-serif;
+    font-size: 15vmin;
+    font-weight: bolder;
+
+}
+.right_side_skills{
+    background: rgb(56, 17, 128);
+}
+.my_skills{
+    color: white;
+    margin-left: 30vmin;
+    line-height: 40px;
+}
+.my_skills > span{
+    font-weight:bolder ;
+    text-transform: uppercase;
+}
+.left_side_interests{
+    padding-left: 50px;
+    color:black;
+    
+}
+.slide_container{
+    height: 100vh;
+    width: 45vw;
+    overflow: hidden;
+    overflow-y: scroll;
+    z-index: 100;
+   
+}
+.slide_container::-webkit-scrollbar{
+    display: none;
+}
+.slide_container{
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+
+}
+/* .image_container{
+    height: 100vh;
+    width: 50vw;
+} */
+.slider_image_1 , .slider_image_2 , .slider_image_3{
+    height: 100vh;
+    width:50vw ;
+    
+    position: relative;
+}
+
+.slider_image_1 > img  , .slider_image_2 > img , .slider_image_3 > img{
+    height: 100vh;
+    width: 50vw;
+}
+.slider_image_1 > h2  , .slider_image_2 > h2 , .slider_image_3 > h2{
+   position: absolute;
+}
+.slider_image_1 > h2 {
+    color: rgb(121, 47, 37);
+    font-family: "Russo One" , sans-serif;
+    font-weight: bolder;
+    font-size: 30px;
+    letter-spacing: 10px;
+    margin-left: 20vmin;
+    padding-bottom: 8vmin;
+}
+.slider_image_2 > h2{
+    color: rgb(25, 44, 151);
+    font-family: "Russo One" , sans-serif;
+    font-weight: bolder;
+    font-size: 40px;
+    letter-spacing: 10px;
+    margin-left: 20vmin;
+    padding-bottom: 8vmin;
+}
+.slider_image_3 > h2{
+    color: white;
+    font-family: "Russo One" , sans-serif;
+    font-weight: bolder;
+    font-size: 40px;
+    letter-spacing: 10px;
+    margin-left: 10vmin;
+    margin-top:15vmin;
+    transform: rotate(-7deg) skew(-5deg);
+}
+/* .my_interests > span{
+    font-size: 5vmin;
+    font-family: "Roboto" , sans-serif;
+} */
+.left_side_interests{
+    width: 50vh;
+}
+
+.header_interests{
+
+    color: #ffff;
+    
+    font-family: 'Poiret One', cursive;
+    font-size: 21vmin;
+    letter-spacing: 2vmin;
+    font-weight: bolder;
+}
+.left_side_contact{
+ 
+    position: absolute;
+    background: #1F1C22;
+    color:white;
+}
+.header_contact{
+    font-family: 'Poiret One', cursive;
+    font-size: 20vmin;
+    letter-spacing: 2vmin;
+    font-weight: bolder;
+    color:white;
+}
+.right_side_contact{
+    background:white;
+}
+.my_contact{
+    position: relative;
+}
+.my_mail{
+    position: absolute;
+}
+
+@media all and (max-width:995px){
+    td{
+        margin-left: 0px;
+        width: fit-content;
+        height: fit-content;
+        
+    }
+}
